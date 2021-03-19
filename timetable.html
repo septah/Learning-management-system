@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+    <title>Timetable</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="content">
+        <h1>February</h1>
+        <h2>Week 5</h2>
+        <h2>2018</h2>
+      </div>
+      <div class="add">
+        <button type="button" id="rightside"><h3>Export calendar</h3></button>
+        <a href="main.html"><button type="button" id="leftside"><h3>Return to menu</h3></button></a>
+      </div>
+    </div>
+
+    <div class="calendar">
+      <div class="calendar-header" id="day">
+        <h3>Day</h3>
+      </div>
+      <div class="calendar-header" id="To-do">
+        <h3>To-Do</h3>
+        <img src="Pictures/Todo.png" alt="To-do list">
+      </div>
+      <div class="calendar-header" id="homework">
+        <h3>Homework</h3>
+        <img src="Pictures/Assignments.png" alt="Homework of the day">
+      </div>
+
+      <div id="første" class="dag">
+        <h4>Monday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Social Stories</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Write three Social Stories about recess and playing games with other people</p>
+        <h4>Math</h4>
+        <p>Exercise 1-7 in Chapter 3</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Science</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Boil water and mark the time and temperature that the water turns to gas. Then freeze
+        the water and note the temperature of the freezer and the time it takes for the water
+        to become ice</p>
+      </div>
+      <div id="andre" class="dag">
+        <h4>Tuesday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Science</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Write a report on your homework</p>
+        <h4>Norwegian Language Comprehension</h4>
+        <p>Do games 1-3</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Religion</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Write an article about a Hindu god/godess of your choice</p>
+        <h4>Music</h4>
+        <p>Practice the flute</p>
+      </div>
+      <div id="tredje" class="dag">
+        <h4>Wednesday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Music</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Learn to play "Morgenstemning" on your flute</p>
+        <h4>Religion</h4>
+        <p>Present your god/godess to your class</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>English</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Write a Social Story about when it rains</p>
+        <h4>History</h4>
+        <p>Exercise 4-9 in Chapter 11</p>
+      </div>
+      <div id="fjerde" class="dag">
+        <h4>Thursday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>English</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Exercise 1-9 in Chapter 8</p>
+        <h4>History</h4>
+        <p>Exercise 10-15 in Chapter 11</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Norwegian</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Exercise 1-8 in Chapter 6</p>
+        <h4>Science</h4>
+        <p>Pick and press 5 flowers</p>
+      </div>
+      <div id="femte" class="dag">
+        <h4>Friday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Science</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+        <p>Write about the flowers you picked in your flora</p>
+        <h4>Norwegian Language Comprehension</h4>
+        <p>Do exercise 1-4</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Have Fun!!</h4>
+        <button class="button"><img src="Pictures/plus.png" alt="Add event"></button>
+      </div>
+    </div>
+
+
+
+    <!-- Chat -->
+    <div class="chat" id="chat">
+      <div class="chat-header">
+        <h3>Teacher Chat</h3>
+        <h4>Feelings</h4>
+      </div>
+      <div class="emoji">
+      <button type="button"><img class="button-image" src="Pictures/happy.png" id="emoji" alt="Emoji of feeling happy"></button>
+      <button type="button"><img class="button-image" src="Pictures/cool.png" id="emoji" alt="Emoji of feeling awesome"></button>
+      <button type="button"><img class="button-image" src="Pictures/confused.png" id="emoji" alt="Emoji of feeling confused"></button>
+      <button type="button"><img class="button-image" src="Pictures/sad.png" id="emoji" alt="Emoji of feeling sad"></button>
+      <button type="button"><img class="button-image" src="Pictures/scared.png" id="emoji" alt="Emoji of feeling scared"></button>
+      <button type="button"><img class="button-image" src="Pictures/meltdown.png" id="emoji" alt="Emoji of having a meltdown"></button>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>How are your studies going?</p>
+        <span id="right" class="time">13.15</span>
+      </div>
+      <div class="container" id="dark">
+        <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
+        <p id="rightside-dialog">No</p>
+        <span id="left" class="time">13.16</span>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>How are you feeling?</p>
+        <span id="right" class="time">13.18</span>
+      </div>
+      <div class="container" id="dark">
+        <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
+        <img src="Pictures/meltdown.png" id="rightside-dialog" alt="Emoji of having a meltdown">
+        <span id="left" class="time">13.20</span>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>I'm so sorry! You have done so well today! I think you should
+        take a break or go to your safe space.</p>
+        <span id="right" class="time">13.24</span>
+      </div>
+    </div>
+
+
+      <script>
+      window.onscroll = function() {move()};
+
+      var ch = document.getElementById("chat");
+      var sticky = ch.offsetTop;
+
+      function move() {
+        if (window.pageYOffset > sticky) {
+          ch.classList.add("sticky");
+        } else {
+          ch.classList.remove("sticky");
+        }
+      }
+
+      </script>
+
+    </body>
+  </html>

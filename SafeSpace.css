@@ -1,0 +1,28 @@
+body{
+background-color: black;
+color: white;
+}
+
+#Audio{
+  display: none;
+}
+
+@keyframes go-left-right {
+  from { left: -290px; }
+  to { left: calc(100% - 50px); }
+}
+
+.train {
+  animation: go-left-right 20s infinite alternate;
+  position: relative;
+}
+
+.feelbutton{
+  text-align:center;
+}
+
+.button {
+  color: black;
+  padding: 15px 32px;
+  font-size: 16px;
+}

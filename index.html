@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <title>Web resource for children diagnosed with ASD in schools</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h2>Monday 17. January</h2>
+      <h3>2020</h3>
+      <a href="main.html"><button type="button" id="leftside" class="btn">Return to menu</button></a>
+    </div>
+
+    <div class="timetable">
+      <div id="time" class="columntitle1 border">
+        <h4>Time</h4>
+      </div>
+      <div id="subject" class="columntitle2 border">
+        <h4>Subject</h4>
+      </div>
+      <div id="to-do" class="columntitle3 border">
+        <h4>To-do</h4>
+      </div>
+
+      <div id="åtte" class="timetablebody border2">
+        <h5>08.15-10.00</h5>
+      </div>
+      <div id="åtte2" class="timetablebody border2">
+        <h5>Norwegian (Social Story)</h5>
+      </div>
+      <div id="åtte3" class="timetablebody border2">
+        <h5>Write a social story about feeling mad</h5>
+        <a href="yay.webp" target="_blank"><button type="button">Done!</button></a>
+      </div>
+      <div id="pause" class="timetablebody border2">
+        <h5>10.00-10.15</h5>
+      </div>
+      <div id="pause2" class="timetablebody border2">
+        <h5>Break (outside)</h5>
+      </div>
+      <div id="pause3" class="timetablebody border2">
+        <h5>Have fun!</h5>
+      </div>
+      <div id="ti" class="timetablebody border2">
+        <h5>10.15-12.00</h5>
+      </div>
+      <div id="ti2" class="timetablebody border2">
+        <h5>Maths</h5>
+      </div>
+      <div id="ti3" class="timetablebody border2">
+        <h5>Chapter 10: Exercise 10.2, 10.4, 10.5</h5>
+        <a href="Pictures/awesome.gif" target="_blank"><button type="button">Done!</button></a>
+        <h5>Chapter 11: Exercise 11.4, 11.5, 11.13</h5>
+        <a href="Pictures/bravo.gif" target="_blank"><button type="button">Done!</button></a>
+      </div>
+      <div id="lunsj" class="timetablebody border2">
+        <h5>12.00-12.30</h5>
+      </div>
+      <div id="lunsj2" class="timetablebody border2">
+        <h5>Lunchbreak (inside or outside)</h5>
+      </div>
+      <div id="lunsj3" class="timetablebody border2">
+        <h5>Play a game with someone</h5>
+        <a href="Pictures/whoopie.gif" target="_blank"><button type="button">Done!</button></a>
+      </div>
+      <div id="12" class="timetablebody border2">
+        <h5>12.30-14.00</h5>
+      </div>
+      <div id="12_2" class="timetablebody border2">
+        <h5>English</h5>
+      </div>
+      <div id="12_3" class="timetablebody border2">
+        <h5>Language Comprehension Assignment</h5>
+        <a href="Pictures/sweet.gif" target="_blank"><button type="button">Done!</button></a>
+      </div>
+    </div>
+
+    <!-- Navigation bar -->
+      <div class="secondboxes">
+            <div id="navigationbar">
+                <a  href="Signin.html" onclick="alert('Good Job! Bye')"> Hi Henriette! <br> <img src="Pictures/train.jpg" alt="train" width="50" height="50"><br>Sign out</a>
+                <a  href="homework.html"><img id="Assignment" src="Pictures/Assignments.png" alt="Language comprehension" width="50" height="50"><br>LANGUAGE <br> COMPREHENSION </a>
+                <a  href="timetable.html"><img src="Pictures/Timetable.png" alt="Week Plan" width="50" height="50"><br>WEEK PLAN</a>
+                <a  href="SafeSpace.html"><img src="Pictures/safe place.png" alt="Safe Space" width="50" height="50"><br> SAFE SPACE</a>
+                <a  href="mood.html"><img src="Pictures/Mood.png" alt="Mood" width="50" height="50"><br>MOOD</a>
+                <a  href="socialstory.html"><img src="Pictures/SocialStory.png" alt="Social story" width="50" height="50"><br>SOCIAL STORY</a>
+            </div>
+      </div>
+
+    <!-- Chat -->
+    <div class="chat" id="chat">
+      <div class="chat-header">
+        <h3>Teacher Chat</h3>
+        <h4>Feelings</h4>
+      </div>
+      <div class="emoji">
+      <button type="button"><img class="button-image" src="Pictures/happy.png" id="emoji" alt="Emoji of feeling happy"></button>
+      <button type="button"><img class="button-image" src="Pictures/cool.png" id="emoji" alt="Emoji of feeling awesome"></button>
+      <button type="button"><img class="button-image" src="Pictures/confused.png" id="emoji" alt="Emoji of feeling confused"></button>
+      <button type="button"><img class="button-image" src="Pictures/sad.png" id="emoji" alt="Emoji of feeling sad"></button>
+      <button type="button"><img class="button-image" src="Pictures/scared.png" id="emoji" alt="Emoji of feeling scared"></button>
+      <button type="button"><img class="button-image" src="Pictures/meltdown.png" id="emoji" alt="Emoji of having a meltdown"></button>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>How are your studies going?</p>
+        <span id="right" class="time">13.15</span>
+      </div>
+      <div class="container" id="dark">
+        <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
+        <p id="rightside-dialog">No</p>
+        <span id="left" class="time">13.16</span>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>How are you feeling?</p>
+        <span id="right" class="time">13.18</span>
+      </div>
+      <div class="container" id="dark">
+        <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
+        <img src="Pictures/meltdown.png" id="rightside-dialog" alt="Emoji of having a meltdown">
+        <span id="left" class="time">13.20</span>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>I'm so sorry! You have done so well today! I think you should
+        take a break or go to your safe space.</p>
+        <span id="right" class="time">13.24</span>
+      </div>
+    </div>
+
+<!-- Header -->
+<div class="mood-container">
+<div class="header" id="mood">
+  <h2>How do you feel?</h2>
+  <h4>Click on one of the icons </h4>
+</div>
+
+<!-- Angry  -->
+
+<div class="box">
+  <a target="_blank" href="./img_forest.jpg"><img src="Angry train.png" alt="Avatar" id="image"></a>
+  <div class="overlay">
+    <div class="text">Angry</div>
+  </div>
+</div>
+
+
+<!-- Happy -->
+ <div class="box">
+  <a target="_blank" href="./img_forest.jpg">
+      <img src="Happy train.png" id="image" alt="happy Thomas train">
+    </a>
+  <div class="overlay">
+    <div class="text">Happy</div>
+  </div>
+</div>
+
+<!-- Sad  -->
+  <div class="box">
+  <a target="_blank" href="./img_forest.jpg"> <img src="Sad ./train.jpg" alt="sad Thomas train" id="image" >
+    </a>
+  <div class="overlay">
+    <div class="text">Sad</div>
+  </div>
+</div>
+
+<!-- Surprised -->
+  <div class="box">
+  <a target="_blank" href=""> <img src="./Surprised ./train.jpg" alt="Suprised Thomas train" id="image" >
+    </a>
+  <div class="overlay">
+    <div class="text">Surprised</div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

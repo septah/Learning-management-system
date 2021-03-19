@@ -1,0 +1,501 @@
+body {
+  font-family: Helvetica;
+}
+
+.header h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.header h2{
+  padding-top: 4px;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.btn {
+  margin-top: -15px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  background-color: white;
+  border: 1px solid #666;
+}
+
+button:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.header h3{
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header {
+  margin-top: -0.8%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  max-width: 100%;
+  background-color: #779ecb;
+  text-align: center;
+  height: 12%;
+}
+
+.timetable {
+  position: relative;
+  display: grid;
+  width: 86.2%;
+  margin-left: 13.6%;
+  height: auto;
+  grid-template-columns: 1fr 2fr 3fr;
+  color: #666;
+  text-align: center;
+  border-right: 1px solid #666;
+}
+
+.columntitle h4 {
+  margin: 6px 6px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.midcontent {
+  width: 65.5%;
+  margin-top: 4.5%;
+  margin-left: 17%;
+}
+
+.midcontent h2{
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #666;
+  z-index: 1;
+}
+
+.midcontent img {
+  position: relative;
+  margin-top: -10%;
+  text-align: center;
+  padding: 6%;
+  border-radius: 50%;
+  background: lightpink;
+  z-index: 0;
+}
+
+.columntitle{
+  position: relative;
+  border-top: 2px solid #666;
+  border-bottom: 2px solid #666;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  background-color: #eee;
+}
+
+.timetablebody h5 {
+  margin: 3px 3px;
+  text-transform: uppercase;
+}
+
+.timetablebody {
+  border-bottom: 1px solid #666;
+  border-left: 1px solid #666;
+}
+
+.timetablebody button{
+  float: right;
+  margin-top: -18px;
+  margin-right: 15px;
+  margin-bottom: 2px;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: auto;
+  background-color: #eee;
+}
+
+.timetablebody button:hover {
+  background-color: lightgreen;
+}
+
+.button-image{
+  max-width: 60px;
+  padding: 5px;
+}
+
+.container img {
+  max-width: 60px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.secondboxes{
+  position: fixed;
+}
+
+#navigationbar{
+  position: relative;
+  margin-top: -93%;
+  max-width: 100%;
+  border-top: 2px solid #666;
+  border-left: 2px solid #666;
+  border-right: 2px solid #666;
+  height: 100%;
+}
+
+#navigationbar a {
+  background-color: #eee;
+  color: #666;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  border-bottom: 2px solid #666;
+  text-align: center;
+  font-size: 20px;
+}
+#blue a {
+  background-color: lightblue;
+}
+#navigationbar a:hover {
+  background-color: #ccc;
+}
+
+#home {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+.chat {
+  background-color: #779ecb;
+  bottom: 0%;
+  position: fixed;
+  margin-left: 79%;
+  max-width: 20%;
+  border: 2px solid #666;
+  overflow-y: scroll;
+  height: 67.1%;
+}
+
+@media screen and (max-width: 800px) {
+  .chat {
+    display: none;
+  }
+}
+
+.chat button:hover {
+  cursor: pointer;
+  background: lightgreen;
+}
+
+.container {
+    padding: 25px;
+    border: 1px solid #666;
+    background-color: #f1f1f1;
+    margin: 5px 5px;
+    border-radius: 10%;;
+}
+
+#dark {
+  border: 1px solid #666;
+  background-color: #E4F6F8;
+}
+
+.chat h3{
+  text-align: center;
+  padding-top: 4px;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.chat h4{
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #666;
+}
+
+.emoji {
+  text-align: center;
+}
+
+.chat-header {
+  background-color: #666;
+  margin-top: -15px;
+}
+
+.chat button {
+  border: 2px solid #666;
+}
+
+.time {
+  margin-top: -10px;
+}
+
+#left {
+  float: left;
+  color: #666;
+}
+
+#right {
+  float: right;
+  color: #666;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+
+}
+#image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+
+}
+
+.box:hover .overlay {
+  opacity: 0.6;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#mood h2,h4 {
+    text-align: center;
+}
+
+#mood h2 {
+    font-size: 60px;
+    background-color: lightpink;
+    padding: 20px;
+    margin: 30px;
+}
+
+#mood {
+    padding:20px;
+    background-color: lightcyan;
+}
+
+.mood-container {
+  position: relative;
+  margin-top: 7%;
+  width: 65.7%;
+  margin-left: 14%;
+  background-color: lightgoldenrodyellow;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sticky {
+  position: fixed;
+  height: 100%;
+}
+
+.box {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+    background-color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.storyflex {
+  color: #666;
+  text-transform: uppercase;
+  position: relative;
+  width: 60%;
+  margin-left: 14%;
+  padding-left: 10%;
+  margin-right: 20%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+#storyboxes {
+  height:150px;
+}
+
+.footer {
+  position: relative;
+  width: 60%;
+  margin-left: 14%;
+  margin-right: 20%;
+  padding-left: 10%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrow1 {
+  padding-right: 20px;
+}
+
+#arrow2 {
+  padding-left: 20px;
+}
+
+}
+
+.homework-container {
+
+}
+
+.homework-slides {
+  margin-top: 0%;
+  margin-left: 13%;
+  width: 67%;
+
+}
+
+.homework {
+  display: none;
+  height: 100%
+  width: 50%;
+}
+
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/8 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+#header-languagecomp {
+  background-color: lightsteelblue;
+}
+
+.language-container {
+  margin-top: -0.3%;
+  width: 65.5%;
+  margin-left: 14%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
